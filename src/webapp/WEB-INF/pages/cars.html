@@ -16,7 +16,7 @@
         <th>Year</th>
     </tr>
     </thead>
-    <tr th:each = "car: ${carList1}">
+    <tr th:each= "car : ${listCars}">
         <td th:text = "${car.model}"></td>
         <td th:text = "${car.series}"></td>
         <td th:text = "${car.year}"></td>
